@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}CadastraProdutos{% endblock %}
+
+{% block navbar %} 
+    {% include 'navbar.html' %}
+{% endblock %}
+
+    <h1>Cadastro de Produto</h1>
+    <form>
+        <div class="form-group">
+            <label for="produto">Nome do Produto</label>
+            <input type="prod" class="form-control" id="produto" aria-describedby="produtoHelp" placeholder="Nome Produto">
+        </div>
+        <div class="form-group">
+            <label for="desc">Descrição do Produto</label>
+            <input type="descricao" class="form-control" id="desc" placeholder="Descrição">
+        </div>
+        <div class="form-group form-check">
+        </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>                         

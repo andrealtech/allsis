@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'fa/css/all.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Cadastro de Produto</h1>
+    <form>
+        <div class="form-group">
+            <label for="produto">Nome do Produto</label>
+            <input type="prod" class="form-control" id="produto" aria-describedby="produtoHelp" placeholder="Nome Produto">
+        </div>
+        <div class="form-group">
+            <label for="desc">Descrição do Produto</label>
+            <input type="descricao" class="form-control" id="desc" placeholder="Descrição">
+        </div>
+        <div class="form-group form-check">
+        </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+                             
+</body>
+</html>
